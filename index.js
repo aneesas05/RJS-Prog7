@@ -3,14 +3,6 @@
 // Tag name: h1
 // Text: Welcome to React
 
-const element = _______________________________;
-
-// TODO 2:
-// Create the React root
-
-const root = _______________________________;
-
-// TODO 3:
-// Render the element
-
-_______________________________;
+const element= Recat.createElement("h1",nulll,"welcome to my web page");
+const root = ReactDom.createRoot(doucument.getElementById);
+root.render(element);
