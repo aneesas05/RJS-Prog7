@@ -4,5 +4,5 @@
 // Text: Welcome to React
 
 const element= React.createElement("h1","welcome to react");
-const root = ReactDom.createRoot(doucument.getElementById);
+const root = ReactDom.createRoot(doucument.getElementById("root"));
 root.render(element);
